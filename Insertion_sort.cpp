@@ -10,7 +10,7 @@ void insertion_Sort(vector <int> array)
 {
     int total = array.size();
   
-    //it checks if it's empty ans proceeds if it's not.
+    //it checks if it's empty and proceeds if it's not.
   
     if(total ==0) 
     {
