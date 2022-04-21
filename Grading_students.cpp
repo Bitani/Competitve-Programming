@@ -12,7 +12,7 @@ int num, remainder;
     cin >> num;
     for(int i = 0; i < num; i++)
 	{
-		   A:
+         A:
         int grade;
         cin >> grade;
        if(grade>=0 && grade<=100)
