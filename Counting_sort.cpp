@@ -4,6 +4,7 @@ Instead, you create an integer array whose index range covers the entire range o
 Each time a value occurs in the original array, you increment the counter at that index. 
 At the end, run through your counting array, printing the value of each non-zero valued index that number of times.*/
 
+// Time complexity of O(n+k).
 
 #include <bits/stdc++.h>
 
