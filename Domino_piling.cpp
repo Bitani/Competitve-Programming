@@ -1,3 +1,4 @@
+// Time complexity O(logn)
 
 #include<iostream>
 using namespace std;
