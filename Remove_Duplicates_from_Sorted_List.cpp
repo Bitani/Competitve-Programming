@@ -16,17 +16,17 @@ class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) 
     {
-      // declaring a temporary variable so that it starts from the beginning of the list.
+      // declaring a temporary variable(temp) so that it starts from the beginning of the list.
         ListNode*temp; 
      if (head==NULL || head->next==NULL)
      {
          return head;
      }
-       // Initializing the temp variable as head so that it can iterate through the list inside the loop and chack if there is any duplicates avaliable.
+       // Initializing the "temp" variable as head so that iteration can be performed and checks whether any duplicates avaliable.
         temp=head;
         while(temp!=NULL && temp->next!=NULL)
         {
-            if(temp->val==temp->next->val) // Checks if the value temp is holding is equal to the next value of the temp.
+            if(temp->val==temp->next->val) // Checks if the value "temp" is holding is equal to the next value of the "temp".
             {
                 temp->next= temp->next->next; 
             }
