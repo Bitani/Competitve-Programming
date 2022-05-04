@@ -1,4 +1,4 @@
-// The Time complexity is O(nlogn)
+// The Time complexity is O(n)
 
 // The Space complexity is O(1)
 
